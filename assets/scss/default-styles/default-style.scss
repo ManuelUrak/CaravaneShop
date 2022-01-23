@@ -1,0 +1,53 @@
+/* 
+    Default Stylesheet
+    by Manuel Urak
+    23.01.2022
+*/
+
+//Breakpoints
+
+@mixin xl{
+	@media only screen and (max-width: 1440px){
+		@content;
+	}
+}
+
+@mixin l{
+    @media only screen and (max-width: 1024px){
+        @content;
+    }
+}
+
+@mixin m{
+	@media only screen and (max-width: 768px){
+		@content;
+	}
+}
+
+@mixin s{
+	@media only screen and (max-width: 480px){
+		@content;
+	}
+}
+
+//Remove margin from the body and set background image to property cover if one is selected
+
+body{
+    margin: 0;
+    background-size: cover;
+}
+
+//Remove styling from an a tag if this class is selected
+
+a.no-style{
+    text-decoration: none;
+}
+
+//Style an a tag like a button
+
+a.link-button{
+    border: 1px solid;
+    border-radius: 35px;
+    padding: 10px 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+/**
+    Costum Stylesheet
+    by Manuel Urak
+    23.01.2022
+**/
+/* 
+    Default Stylesheet
+    by Manuel Urak
+    23.01.2022
+*/
+body {
+  margin: 0;
+  background-size: cover;
+}
+
+a.no-style {
+  text-decoration: none;
+}
+
+a.link-button {
+  border: 1px solid;
+  border-radius: 35px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
