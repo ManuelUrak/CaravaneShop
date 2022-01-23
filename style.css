@@ -8,6 +8,8 @@
     by Manuel Urak
     23.01.2022
 */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 body {
   margin: 0;
   background-size: cover;
@@ -22,6 +24,143 @@ a.link-button {
   border-radius: 35px;
   padding: 10px 20px;
   text-decoration: none;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.image--contain {
+  object-fit: contain;
+}
+.image--contain img {
+  width: 100%;
+  height: 100%;
+}
+.image--cover {
+  object-fit: cover;
+}
+.image--cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-container {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-container {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-container {
+    height: 100px;
+  }
+}
+.navbar-container .collapse-button {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-container .collapse-button {
+    display: block;
+  }
+}
+.navbar-container .collapse-button img {
+  width: 100%;
+  height: 100%;
+}
+.navbar-container .nav-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-container .nav-logo {
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .navbar-container .nav-logo {
+    width: 160px;
+    height: 70px;
+  }
+}
+.navbar-container .navbar {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-container .navbar {
+    display: none;
+  }
+}
+.navbar-container .navbar ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+.navbar-container .navbar ul li {
+  padding-right: 20px;
+}
+.navbar-container .navbar ul li:last-child {
+  padding-right: 0;
+}
+.navbar-container .navbar ul li a {
+  font-family: "Aclonica", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.navbar-container .navbar ul li a:hover {
+  color: #E8912A;
+}
+.navbar-container .user-int-bar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-container .user-int-bar {
+    display: none;
+  }
+}
+.navbar-container .user-int-bar ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+.navbar-container .user-int-bar ul li {
+  padding-right: 20px;
+}
+.navbar-container .user-int-bar ul li:last-child {
+  padding-right: 0;
+}
+.navbar-container .user-int-bar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.navbar-container .user-int-bar ul li a:hover {
+  color: #E8912A;
+}
+.navbar-container .helper {
+  width: 70px;
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar-container .helper {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
