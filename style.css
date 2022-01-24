@@ -78,6 +78,47 @@ a.link-button {
   width: 100%;
   height: 100%;
 }
+.navbar-container .mobile-menu {
+  display: none;
+  border: 1px solid #E8912A;
+  position: absolute;
+  z-index: 4;
+  top: 100px;
+  left: 20px;
+  width: 180px;
+  background: white;
+}
+.navbar-container .mobile-menu .mobile-navbar ul {
+  list-style: none;
+  padding: 0;
+}
+.navbar-container .mobile-menu .mobile-navbar ul li {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.navbar-container .mobile-menu .mobile-navbar ul li:last-child {
+  border-bottom: 1px solid black;
+}
+.navbar-container .mobile-menu .mobile-navbar ul li a {
+  font-family: "Aclonica", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
+.navbar-container .mobile-menu .mobile-user-int-bar ul {
+  list-style: none;
+  padding: 0;
+}
+.navbar-container .mobile-menu .mobile-user-int-bar ul li {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.navbar-container .mobile-menu .mobile-user-int-bar ul li a {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+}
 .navbar-container .nav-logo {
   display: flex;
   align-items: center;

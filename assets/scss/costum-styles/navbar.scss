@@ -32,6 +32,59 @@
         }
     }
 
+    .mobile-menu{
+        display: none;
+        border: 1px solid #E8912A;
+        position: absolute;
+        z-index: 4;
+        top: 100px;
+        left: 20px;
+        width: 180px;
+        background: white;
+
+        .mobile-navbar{
+            ul{
+                list-style: none;
+                padding: 0;
+                
+                li{
+                    padding-bottom: 10px;
+                    text-align: center;
+
+                    &:last-child{
+                        border-bottom: 1px solid black;
+                    }
+
+                    a{
+                        font-family: 'Aclonica', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: black;
+                    }
+                }
+            }
+        }
+
+        .mobile-user-int-bar{
+            ul{
+                list-style: none;
+                padding: 0;
+                
+                li{
+                    padding-bottom: 10px;
+                    text-align: center;
+
+                    a{
+                        font-family: 'Poppins', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+
     .nav-logo{
         display: flex;
         align-items: center;
